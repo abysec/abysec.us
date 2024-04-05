@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'Micro5'; /* Give the font a name you can reference in your styles */
+  src: url('fonts/Micro5-Regular.tff') format('truetype'); /* Specify the font source and format */
+}
+
+  
+h1 {
+  font-family: Micro5-Regular;
+  font-style: italic;
+  font-size: 20px;
+}
+
+body {
+  background-color: #FAF6E9;
+}
+
+.fixed-header {
+  
+  /* Additional styles for background color, padding, etc. */
+}
+
+.navbar{
+  position: fixed;
+  top: 5px;
+  left: 15px;
+  width: 100%;
+}
+
+.name{
+  position: relative;
+  
+}
+
+.first-name, .last-name{
+  font-family: Micro5-Regular;
+  font-size: 50px;
+  display: inline-flex;
+}
+
+
+
+
+
